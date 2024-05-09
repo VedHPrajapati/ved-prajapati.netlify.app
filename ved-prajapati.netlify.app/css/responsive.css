@@ -1,0 +1,59 @@
+@media screen and (max-width: 460px) {
+  header {
+    width: 100%;
+    font-size: unset;
+    background: #222222c4;
+  }
+  .sidenav {
+    display: none;
+  }
+  main {
+    margin-left: unset;
+  }
+  .head2 {
+    text-align: center;
+    font-size: 2.2em;
+  }
+  p {
+    width: 100%;
+    font-size: small;
+    text-align: center;
+  }
+  section {
+    overflow-x: hidden;
+    margin: unset;
+    padding: 150px 0px;
+  }
+  .sun-conatainer {
+    display: none;
+    left: 33.5%;
+  }
+  .slide {
+    width: 120px;
+  }
+  .skill {
+    font-size: small;
+  }
+  .item {
+    width: 100%;
+  }
+  .cer {
+    width: 120px;
+  }
+  #fuzzy {
+    padding: 0;
+  }
+  #footer {
+    padding: 0;
+  }
+  #footer h2 {
+    font-size: x-small;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item {
+    width: 50%;
+  }
+}
